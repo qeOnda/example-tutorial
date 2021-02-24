@@ -16,9 +16,6 @@
       "required": true,
       "minLength": 10
     },
-    "content": {
-      "type": "richtext"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -34,6 +31,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "articles"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
